@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server-spa dist/ng-demo index.html $PORT",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "npm i -g http-server-spa",
-    "postinstall": "ng build --prod=true"
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
