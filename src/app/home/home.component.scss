@@ -1,0 +1,118 @@
+.has-bg-img {
+    // background: #C12267;
+    background: url(/assets/img/coffee.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-magenta {
+    background: #C12267;
+
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
+
+.textarea {
+    resize: none;
+}
+
+.bg-olive {
+    background: #ABC04D;
+    
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
+
+.bg-orange {
+    background:  #e67a3b;
+    
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
+
+.hero-body {
+    .title {
+        color: #FFF5EE;
+    }
+    .subtitle {
+        color: #FFF5EE;
+    }
+}
+
+// glyph
+a.glyph {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/**CSS FOR THE RING**/
+
+.glyphicon-ring {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid white;
+    /*border: 3vw solid white;*/
+    color: white;
+    display: inline-table;
+    text-align: center;
+  }
+  /**CSS FOR ICON WITH NO BACKGROUND COLOR**/
+  
+  .glyphicon-ring .glyphicon-bordered {
+    font-size: 20px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  /**WITH AN ADDED BACKGROUND COLOR**/
+  
+  .glyphicon-white {
+    background: white;
+    color: black;
+    border: 4px solid black;
+    /*border: 4vw solid black;*/
+  }
+  .glyphicon-teal {
+    background: teal;
+    color: orange;
+  }
+  .glyphicon-red {
+    background: red;
+  }
+  .glyphicon-test {
+    color: #C12267;
+    background: #FDEEF4;
+    border: 4px solid #F9966B;
+  }
+  .glyphicon-test:hover {
+    color: #FFFFFF;
+    background: #C12267;
+    border: 4px solid #F9966B;
+  }

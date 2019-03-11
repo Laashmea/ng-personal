@@ -1,0 +1,138 @@
+
+
+  <section class="hero is-medium is-flex-touch has-bg-img">
+    
+    <div class="hero-head"></div>
+  
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1 is-bold colour-peach">
+          Leslie Ashmeade
+        </h1>
+        <p class="subtitle is-3 colour-peach">
+          Bachelor of Computing and Financial Management
+        </p>
+        <div class="container has-text-centered">
+          <a class="glyph" href="https://ca.linkedin.com/in/leslie-ashmeade" rel="noopener noreferrer" target="_blank">
+            <span class="icon is-small glyphicon-ring glyphicon-test">
+                <fa-icon [icon]="['fab','linkedin-in']" class="glyphicon-bordered"></fa-icon>
+            </span>&nbsp;&nbsp;&nbsp;
+          </a>
+          <span class="icon is-small glyphicon-ring glyphicon-test">
+            <fa-icon [icon]="['fab','github-alt']" class="glyphicon-bordered"></fa-icon>
+          </span>&nbsp;&nbsp;&nbsp;
+          <span class="icon is-small glyphicon-ring glyphicon-test">
+            <fa-icon routerLink="contact" [icon]="['far','envelope']" class="glyphicon-bordered"></fa-icon>
+          </span>
+          
+            <!-- <a class="glyph" href="https://ca.linkedin.com/in/leslie-ashmeade" rel="noopener noreferrer" target="_blank">
+              <span class="icon glyphicon-ring glyphicon-test">
+                <fa-icon icon="linkedin-in"></fa-icon>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="glyph" href="https://ca.linkedin.com/in/leslie-ashmeade" rel="noopener noreferrer" target="_blank"><span class="icon glyphicon-ring glyphicon-test"><i class="fas fa-linkedin fa-lg glyphicon-bordered" aria-hidden="true"></i></span></a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a class="glyph" href="https://github.com/laashmea" rel="noopener noreferrer" target="_blank"><div class="glyphicon-ring glyphicon-test"><i class="fas fa-github fa-lg glyphicon-bordered" aria-hidden="true"></i></div></a>&nbsp;&nbsp;&nbsp; -->
+            <!-- <a id="mailglyph"><span class="glyphicon-ring glyphicon-test"><i icon="envelope-open" class="glyphicon-bordered" aria-hidden="true"></i></span></a> -->
+        </div>
+      </div>
+    </div>
+  
+    <!-- <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active">
+              <a>Overview</a>
+            </li>
+            <li>
+              <a>Modifiers</a>
+            </li>
+            <li>
+              <a>Grid</a>
+            </li>
+            <li>
+              <a>Elements</a>
+            </li>
+            <li>
+              <a>Components</a>
+            </li>
+            <li>
+              <a>Layout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div> -->
+  </section>
+  <section class="section bg-magenta is-flex-touch">
+    <div class="container has-text-left">
+      <h1 class="title is-4">Welcome to my website</h1>
+      <h2 class="subtitle is-6">
+        This website is my online resume. <strong>Please enjoy!</strong>
+      </h2>
+      
+      <!-- <p>I am a student at the University of Waterloo studying Computer Science and Finance.</p> -->
+    </div>
+  </section>
+
+
+
+  <!-- var pchart = $("#programChart");
+      // var pchart = document.getElementById("programChart").getContext('2d');
+      var program = new Chart(pchart,
+            {
+               type: 'doughnut',
+               data: pieData,
+               options: pieOptions
+            });
+
+
+      // var program = null;
+
+      
+
+      document.getElementById('programChart').onclick = function(evt) {
+         if (program === null) { return; }
+
+         var activePoints = program.getElementsAtEvent(evt);
+         //alert(activeElement);
+         //var activePoint = activeElement[0];
+
+         if(activePoints.length > 0)
+         {
+            //get the internal index of slice in pie chart
+            var clickedElementindex = activePoints[0]["_index"];
+
+            //get specific label by index 
+            var pieLabel = program.data.labels[clickedElementindex];
+
+            var finPElement = $("#aboutFinance");
+            var csPElement = $("#aboutComsci");
+            var genPElement = $("#aboutGeneral");
+            var finType = finPElement.css('display');
+            var csType = csPElement.css('display');
+            var genType = genPElement.css('display');
+
+            if (pieLabel === FINANCE && finType === 'none') {
+               csPElement.hide(500);
+               finPElement.show(500);
+
+            }
+            else if (pieLabel === FINANCE) {
+               csPElement.hide(500);
+               finPElement.hide(500);
+            }
+            else if (pieLabel === COMPSCI && csType === 'none') {
+               finPElement.hide(500);
+               csPElement.show(500);
+            }
+            else if (pieLabel === COMPSCI) {
+               finPElement.hide(500);
+               csPElement.hide(500);
+            }
+            else {
+               alert("ERROR: " + pieLabel);
+            }
+         }
+      }; -->
+  

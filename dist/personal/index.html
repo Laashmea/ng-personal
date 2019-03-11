@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Leslie Ashmeade</title>
+  <base href="https://laashmea.github.io/ng-personal">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/warmLogo.png">
+  <script>
+    // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+<link rel="stylesheet" href="styles.e5e5d6db139aa0c4d451.css"></head>
+<body>
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.a5dd35324ddfd942bef1.js"></script><script type="text/javascript" src="polyfills.3eb7881d3a00da6c675e.js"></script><script type="text/javascript" src="main.781320bff7f4800ce726.js"></script></body>
+</html>

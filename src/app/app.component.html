@@ -1,0 +1,71 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<nav class="navbar bg-test is-flex-touch" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="">
+      <img src="assets/img/warmLogo.png">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" a routerLink="about">
+          About
+      </a>
+      <a class="navbar-item" a routerLink="resume">
+        Resume
+      </a>
+      <a class="navbar-item" a routerLink="contact">
+        Contact
+      </a>
+      
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <span>Languages | <a>English</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>한국어</a></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--The content below is only a placeholder and can be replaced.-->
+<router-outlet></router-outlet>
+
+
+<section class="section bg-olive has-text-right is-flex-touch">
+    <div class="container has-icons-right">
+       <span class="icon is-small is-right">
+          <fa-icon [icon]="['fas','asterisk']"></fa-icon>
+        </span>
+        &nbsp;
+        <strong>Designed and developed by Leslie Ashmeade</strong>
+    </div>
+  </section>
+
+
+
+

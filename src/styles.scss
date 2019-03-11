@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+// @charset "utf-8";
+// @import "../node_modules/bulma/bulma.sass";
+
+// @import "utilities/functions";
+// @import "utilities/derived-variables";
+// @import "controls";
+// @import "animations";
+// @import "_all";
+// @import "mixins";
+
+// @charset "utf-8";
+@import "initial-variables";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$olive-green: #ABC04D;
+$pale-orange: #e67a3b;
+$aqua: #aed8bc;
+$magenta: #C12267;
+
+// Update Bulma's global variables
+$family-sans-serif: "Open Sans", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $aqua;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+
+@import "bulma";
+
+// $danger: $orange; // Use the existing orange
+// // $family-primary: $family-serif; // Use the new serif family
+// $blue: $grey-dark;
+
+
+// $title-color: $blue !default;
+// $subtitle-color: $blue !default;
+// @import "bulma"
+
+// body {
+//     font-family: 'Open Sans';
+//     font-weight: 400;
+//     font-size: 10pt;
+//     // background: #C12267;
+//     // color: #FFF5EE;/*#B6B6B4;#45172C;*/
+//     color: rgb(187, 87, 16);
+//   }
+
+
+
+
+
+// a {
+//     color: #FFF5EE;
+//     &:hover {
+//         color:#F9966B;
+//     }
+// }

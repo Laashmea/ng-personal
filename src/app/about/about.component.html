@@ -1,0 +1,86 @@
+<section id="myprogram" class="bg-gray section">
+  <div class="container">
+     <h1 class="title is-1 is-bold">
+          My Program
+     </h1>
+     <div class="columns">        
+        <div class="column">
+          <div>
+              The Bachelor of Computing and Financial Management combines a deep understanding of Computer Science,
+              using technology to solve real world problems, with a strong foundation in Finance, the science of managing
+              money. The result is a dynamic curriculum that prepares students to make an impact in the ever-evolving
+              financial services and beyond.
+          </div>
+              &nbsp;
+              &nbsp;
+          <div>
+              Computing and Financial Management (CFM) graduates have the knowledge and
+              experience to use technology to solve financial problems efficiently and effectively, making them exactly the
+              kind of graduates the financial industry and other businesses reliant on information technology demand when they
+              hire leaders.
+          </div>
+        </div>
+        <div class="column">
+          <div id="aboutGeneral" class="">
+            <p class="curve-container transblack-bg has-text-centered" style="color: rgb(200,250,70);">
+                Click a colour on the wheel to learn more.
+            </p>
+          </div>
+          <div style="display: block">
+            <canvas baseChart
+                    [data]="doughnutChartData"
+                    [labels]="doughnutChartLabels"
+                    [options]="doughnutChartOptions"
+                    [legend]="doughnutChartLegend"
+                    [chartType]="doughnutChartType"
+                    [colors]="doughnutChartColors"
+                    (chartClick)="chartClicked($event)">
+            </canvas>
+            <p class="has-text-centered">Computer Science Major. Finance Major.<br/>One Degree.</p>
+               <p class="has-text-centered" style="font-size: smaller;">To learn more <a href="https://uwaterloo.ca/computing-financial-management/">click here</a>.</p>
+          </div>
+        </div>
+       
+     </div>
+     <div id="aboutComsci" class="curve-container bg-transblack" [class.is-invisible]="!(csVisible || finVisible)" [hidden]="csVisible == false && finVisible == true">
+         <h3>Skills</h3>
+         <ul>
+            <li>Programming Languages: C, C++, Java, C#.NET, VB.NET, ASP.NET</li>
+            <li>Operating Systems: Windows, OS X, Linux</li>
+            <li>Source Control Systems: Git, Microsoft TFS, Serena Dimensions</li>
+            <li>Web Application: Spring Framework, HTML5, CSS, JavaScript/JQuery</li>
+            <li>Blockchain: EthereumJ, GoEthereum, Nuco 
+            <li>Other: SQL (Micrsoft SQL Server), MATLAB, XML</li>
+         </ul>
+         <h3>Highlight Courses:</h3>
+         <ul>
+           <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS341">CS 341: Algorithms</a></li>
+           <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS370">CS 370: Numerical Computing</a></li>
+           <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS246">CS 246: Object-Oriented Software Development</a></li>
+           <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS245">CS 245: Logic and Computation</a></li>
+            <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS241">CS 241: Foundations of Sequential Programs</a></li>
+            
+         </ul>
+      </div>
+
+      <div id="aboutFinance" class="bg-transblack curve-container" [class.is-invisible]="!(csVisible || finVisible)" [hidden]="finVisible == false">
+       <!-- style="display: none;" -->
+
+         <h3>Skills</h3>
+         <ul>
+         <li>Experienced: Microsoft Office (Word, Excel, Powerpoint)</li>
+         <li>Knowledge: Capital Markets, Trading, Insurance</li>
+         <li>Underwent trading simulations</li>
+         <li>Prepared a stock valuation presentation on a team of four to determine whether an investor should buy, sell, or hold the stock</li>
+         </ul>
+         <h3>Highlight Courses:</h3>
+         <ul>
+         <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-AFM.html#AFM425">AFM 425: Fixed Income Securities</a></li>
+         <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-AFM.html#AFM322">AFM 322: Derivatives</a></li>
+         <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-AFM.html#STAT373">AFM 373: Regression and Forecasting Methods in Finance</a></li>
+         <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-AFM.html#AFM372">AFM 372: Corporate Finance 2</a></li>
+         <li><a href="http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-AFM.html#AFM272">AFM 272: Corporate Finance 1</a></li>
+       </ul>
+      </div>
+    </div>
+ </section>

@@ -1,0 +1,86 @@
+.bg-peach {
+    // background-color:#FFF5EE;
+    // background-color: #ffb27b;
+    background-color: #acdfbd;
+}
+
+a {
+    // color: #C12267;
+    // &:hover {
+    //     color:#F9966B;
+    // }
+    color: #C12267;
+    &:hover {
+        color:#F9966B;
+    }
+    
+}
+
+body {
+    letter-spacing: 2px; 
+}
+
+.bg-test {
+    background: #FFF5EE;
+
+    .title, .subtitle, .label, .container {
+        color: #FFF5EE;
+        color: black;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+}
+
+
+.bg-magenta {
+    background: #C12267;
+
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
+
+.bg-aqua {
+    background-color: #aed8bc;
+    .title, .subtitle, .label, .div, .container {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+}
+
+.bg-orange {
+    background:  #e67a3b;
+    color: #FFF5EE;
+    
+    .title, .subtitle, .label, .div, .container {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+}
+
+.bg-olive {
+    background: #ABC04D;
+    
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
