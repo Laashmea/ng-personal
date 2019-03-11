@@ -1,27 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<nav class="navbar bg-test is-flex-touch" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent bg-test" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" routerLink="">
+    <a class="navbar-item" (click)="resetActiveStatus()" routerLink="">
       <img src="assets/img/warmLogo.png">
     </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" class="navbar-burger burger" (click)="onBurgerClick()" [class.is-active]="activeStatus" aria-label="menu" aria-expanded="false" data-target="personal-navbar">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="personal-navbar" class="navbar-menu" [class.is-active]="activeStatus">
     <div class="navbar-start">
-      <a class="navbar-item" a routerLink="about">
+      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="about">
           About
       </a>
-      <a class="navbar-item" a routerLink="resume">
+      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="resume">
         Resume
       </a>
-      <a class="navbar-item" a routerLink="contact">
+      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="contact">
         Contact
       </a>
       

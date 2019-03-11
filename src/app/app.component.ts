@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // logic resides here for angular app
   title = 'ng-personal';
+
+  activeStatus:Boolean = false;
+
+  public onBurgerClick(): void {
+    this.activeStatus = !this.activeStatus;
+  }
+  public resetActiveStatus(): void {
+    this.activeStatus = false;
+  }
 }
