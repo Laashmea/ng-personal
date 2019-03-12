@@ -27,6 +27,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.7.2",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "bulma": "^0.7.4",
+    "bulma-carousel": "^4.0.2",
     "chart.js": "^2.7.3",
     "codelyzer": "~4.5.0",
     "core-js": "^2.6.5",

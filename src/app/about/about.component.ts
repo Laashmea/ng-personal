@@ -28,7 +28,7 @@ export class AboutComponent implements OnInit {
     title: {
         display: true,
         text: "Computing and Financial Management",
-        fontSize: 12,
+        // fontSize: 12,
         fontFamily: "'Open Sans','sans serif'",
         fontColor: 'white'
      },

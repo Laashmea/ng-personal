@@ -33,8 +33,8 @@ $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
 $link: $aqua;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
 
 
 // Update some of Bulma's component variables
@@ -46,6 +46,7 @@ $input-shadow: none;
 
 
 @import "bulma";
+// @import "~bulma-carousel/dist/css/bulma-carousel.min.css";
 
 // $danger: $orange; // Use the existing orange
 // // $family-primary: $family-serif; // Use the new serif family

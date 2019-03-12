@@ -38,9 +38,10 @@
                 "node_modules/bulma/sass/elements",
                 "node_modules/bulma/sass/components",
                 "node_modules/chart.js/src/chart.js"
+                
               ]
             },
-            "scripts": []
+            "scripts": ["node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"]
           },
           "configurations": {
             "production": {
