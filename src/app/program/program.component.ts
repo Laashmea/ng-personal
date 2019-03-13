@@ -59,7 +59,7 @@ export class ProgramComponent implements OnInit {
      }
   };
 
-  public doughnutChartLabels = [this.COMPSCI, this.FINANCE];
+  public doughnutChartLabels = [this.FINANCE, this.COMPSCI];
   public doughnutChartType = 'doughnut';
   public doughnutChartLegend = true;
   public doughnutChartData = [50, 50];
