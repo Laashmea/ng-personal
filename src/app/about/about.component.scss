@@ -1,32 +1,15 @@
-.bg-gray {
-    background-color: #6d5268;
-    // background: #91828e;
+.title {
+  color: #7C0A3B;
 }
 
-h1 {
-    color: #aed8bc;
+.bg {
+  background: #FFF5EE;
 }
 
-body,p, div {
-    color: white;
-}
-
-a {
-
-}
-
-section {
-    margin: 10em, 10em, 10em, 10em;
-    padding: 10em, 10em, 10em, 10em;
-}
-
-.curve-container {
-    border: 2px;
-  border-radius: 0.5em 1.5em; 
-  border-color: rgba(0,0,0, 0.8); 
-}
-
-.bg-transblack {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 20px;
+.corporatephoto {
+    border-radius: 5%;
+    /*display: block;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*float: right;*/
   }

@@ -1,0 +1,36 @@
+.bg-gray {
+    background-color: #6d5268;
+    // background: #91828e;
+}
+
+h1 {
+    color: #aed8bc;
+}
+
+body,p, div {
+    color: white;
+}
+
+a {
+
+}
+
+section {
+    margin: 10em, 10em, 10em, 10em;
+    padding: 10em, 10em, 10em, 10em;
+}
+
+.subtitle {
+    color: white;
+}
+
+.curve-container {
+    border: 2px;
+  border-radius: 0.5em 1.5em; 
+  border-color: rgba(0,0,0, 0.8); 
+}
+
+.bg-transblack {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }

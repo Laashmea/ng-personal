@@ -1,8 +1,8 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
-<nav class="navbar is-transparent bg-test" role="navigation" aria-label="main navigation">
+<html class="has-navbar-fixed-top">
+<nav class="navbar is-fixed-top is-transparent bg-test" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" (click)="resetActiveStatus()" routerLink="">
+    <a class="navbar-item" (click)="navigateToHeader('Home')" (click)="resetActiveStatus()">
       <img src="assets/img/warmLogo.png">
     </a>
 
@@ -15,14 +15,17 @@
 
   <div id="personal-navbar" class="navbar-menu" [class.is-active]="activeStatus">
     <div class="navbar-start">
-      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="about">
+      <a class="navbar-item" (click)="navigateToHeader('About')" (click)="resetActiveStatus()">
           About
       </a>
-      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="resume">
-        Resume
+      <a class="navbar-item" (click)="navigateToHeader('Program')" (click)="resetActiveStatus()">
+          Program
       </a>
-      <a class="navbar-item" (click)="resetActiveStatus()" routerLink="contact">
-        Contact
+      <a class="navbar-item" (click)="navigateToHeader('Resume')" (click)="resetActiveStatus()">
+          Resume
+      </a>
+      <a class="navbar-item" (click)="navigateToHeader('Contact')" (click)="resetActiveStatus()">
+          Contact
       </a>
       
 
@@ -44,16 +47,20 @@
       </div> -->
     </div>
 
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
       <div class="navbar-item">
         <span>Languages | <a>English</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>한국어</a></span>
       </div>
-    </div>
+    </div> -->
   </div>
 </nav>
 
 <!--The content below is only a placeholder and can be replaced.-->
-<router-outlet></router-outlet>
+<app-home id="Home"></app-home>
+<app-about id="About"></app-about>
+<app-program id="Program"></app-program>
+<app-resume id="Resume"></app-resume>
+<app-contact id="Contact"></app-contact>
 
 
 <section class="section bg-olive has-text-right is-flex-touch">
@@ -65,7 +72,7 @@
         <strong>Designed and developed by Leslie Ashmeade</strong>
     </div>
   </section>
-
+  </html>
 
 
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgAnimateScrollService } from 'ng-animate-scroll';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // logic resides here for angular app
+  constructor(private animateScrollService: NgAnimateScrollService){}
+
+  ngOnInit() {
+  }
+
+  navigateToHeader(headerName?:string, duration?:number) {
+    if (duration == null) {
+      duration = 1500;
+    }
+    this.animateScrollService.scrollToElement(headerName, duration)
+}
   title = 'ng-personal';
 
   activeStatus:Boolean = false;
