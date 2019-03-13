@@ -19,13 +19,15 @@
                 kind of graduates the financial industry and other businesses reliant on information technology demand when they
                 hire leaders.
             </div>
+            <br/>
+            <div class="prompter curve-container has-text-centered">
+                  <p>
+                      Click a colour on the wheel to learn more about my skills for that major.
+                  </p>
+            </div>
           </div>
           <div class="column">
-            <div id="aboutGeneral" class="">
-              <p class="curve-container transblack-bg has-text-centered" style="color: rgb(200,250,70);">
-                  Click a colour on the wheel to learn more.
-              </p>
-            </div>
+            
             <div style="display: block">
               <canvas baseChart
                       [data]="doughnutChartData"
@@ -45,12 +47,12 @@
        <div id="aboutComsci" class="curve-container bg-transblack" [class.is-invisible]="!(csVisible || finVisible)" [hidden]="csVisible == false && finVisible == true">
            <h5 class="subtitle is-5">Skills</h5>
            <ul>
-              <li>Programming Languages: Python, C, C++, Java, JavaScript, .NET Framework (C#, VB, ASP)</li>
-              <li>Source Control Systems: Git, Microsoft TFS, Serena Dimensions</li>
-              <li>Web Application: Angular 2+, HTML5, CSS</li>
-              <li>RESTful Services: Spring (Java), Flask (Python), Express (node.js) </li>
-              <li>Blockchain Platforms: GoEthereum, Nuco, EthereumJ </li>
-              <li>Databases: MongoDB, SQL</li>
+              <li class="pad-li">Programming Languages:<span class="test"> Python, C, C++, Java, JavaScript, .NET Framework (C#, VB, ASP)</span></li>
+              <li class="pad-li">Web Application:<span class="test"> Angular 2+, HTML5, CSS</span></li>
+              <li class="pad-li">RESTful Services: <span class="test">Spring (Java), Flask (Python), Express (node.js)</span></li>
+              <li class="pad-li">Blockchain Platforms: <span class="test">GoEthereum, Nuco, EthereumJ</span></li>
+              <li class="pad-li">Databases: <span class="test">MongoDB, SQL</span></li>
+              <li class="pad-li">Source Control Systems: <span class="test">Git, Microsoft TFS, Serena Dimensions</span></li>
            </ul>
            &nbsp;
            <h5 class="subtitle is-5">Highlight Courses</h5>
@@ -69,8 +71,8 @@
   
            <h5 class="subtitle is-5">Skills</h5>
            <ul>
-              <li>Tools: Microsoft Office (Word, Excel, Powerpoint)</li>
-              <li>Studied Topics: Capital Markets, Trading Strategies, Stock and Option Valuation</li>
+              <li>Tools: <span class="test">Microsoft Office (Word, Excel, Powerpoint)</span></li>
+              <li>Studied Topics: <span class="test">Capital Markets, Trading Strategies, Stock and Option Valuation</span></li>
            </ul>
            &nbsp;
            <h5 class="subtitle is-5">Highlight Courses</h5>
