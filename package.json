@@ -41,7 +41,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "ng-animate-scroll": "^7.1.0",
     "ng2-charts": "^1.6.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "protractor": "^5.4.2",
     "rxjs": "~6.3.3",
     "ts-node": "~7.0.0",
